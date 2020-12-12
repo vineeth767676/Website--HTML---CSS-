@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+   font-family: 'Open Sans', sans-serif;
+
+   margin: 0%;
+
+   /* background-color: #ffffd8;*/
+}
+
+
+hr {
+   margin: 2rem 0rem;
+}
+
+/* container */
+.container {
+   padding: 0rem 1rem;
+}
+
+.container-center {
+   max-width: 600px;
+   margin: auto;
+   text-align: center;
+
+}
+
+/* link */
+.link {
+   text-decoration: none;
+   padding: 0.5rem 1rem;
+   color: white;
+
+
+
+
+}
+
+.primary-link {
+   background-color: #FBBF24;
+
+
+   border-radius: 0.5rem;
+   color: white;
+}
+
+.secondary-link {
+   border: solid #FBBF24 1px;
+
+   border-radius: 0.5rem;
+   color: black;
+}
+
+
+/* list */
+.list-non-bullet {
+
+   list-style: none;
+}
+
+.list-item-inline {
+   display: inline;
+   padding: 0rem 0.5rem;
+
+}
+
+.navigation {
+   background-color: #FBBF24;
+
+   padding: 1rem;
+
+   border-radius: 1rem;
+
+
+}
+
+.navigation .link {
+   color: aliceblue;
+}
+
+.navigation .nav-brand {
+   font-weight: bold;
+   font-size: 2rem;
+   background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.navigation .list-non-bullet {
+   text-align: right;
+}
+
+.navigation .link-active {
+   font-weight: bold;
+}
+
+/* header */
+
+.anime {
+   padding: 2rem;
+}
+
+.anime .anime-image {
+   max-width: 450px;
+   display: block;
+   margin: auto;
+}
+
+/* .anime .anime-heading {
+   color: #3B82F6;
+   padding: 1rem;
+
+} */
+
+.anime .anime-heading {
+   font-size: 72px;
+
+   text-align: center;
+   font-size: 72px;
+   background: -webkit-linear-gradient(#333, #FBBF24);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+   background-image: linear-gradient(45deg, #333, #FBBF24);
+
+}
+
+
+
+/* section */
+
+.section {
+   padding: 2rem;
+}
+
+.section h1 {
+   text-align: center;
+
+}
+
+.grey {
+   background-color: #FFFFE0;
+}
+
+/* footer */
+
+.footer {
+   background-color: #FBBF24;
+   padding: 2rem 1rem;
+   text-align: center;
+   color: white;
+   border-radius: 1rem;
+}
+
+.footer ul {
+   padding-inline-start: 0px;
+}
+
+.social {
+   text-decoration: none;
+   padding: 1.5rem;
+   color: black;
+   font-size: 2rem;
+}
