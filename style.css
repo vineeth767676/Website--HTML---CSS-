@@ -113,15 +113,13 @@ hr {
 } */
 
 .anime .anime-heading {
-   font-size: 72px;
-
    text-align: center;
-   font-size: 72px;
-   background: -webkit-linear-gradient(#333, #FBBF24);
+   font-size: 35px;
+   background: -webkit-linear-gradient(#d8d8d8, #FBBF24);
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 
-   background-image: linear-gradient(45deg, #333, #FBBF24);
+   background-image: linear-gradient( #333, #FBBF24);
 
 }
 
