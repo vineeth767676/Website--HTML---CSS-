@@ -157,7 +157,10 @@ hr {
    color: black;
    font-size: 2rem;
 }
-
+.footer-header{
+   letter-spacing: .2rem;
+   font-size: x-large;
+}
 .dummy {
   text-align: center;
 }
